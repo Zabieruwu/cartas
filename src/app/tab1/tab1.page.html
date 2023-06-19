@@ -1,17 +1,26 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+<ion-content>
+  <ion-header [translucent]="true">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title>
+        Tab 1
+      </ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  
+  <ion-grid [fixed]="true">
+    <ion-row class="card-container">
+      
+        <ion-card color="dark content" *ngFor = "let herramienta of herramientas">
+          <ion-card-header class="card card-front">
+            <ion-card-title class="">{{herramienta.nombre}}</ion-card-title>
+            <h2>{{herramienta.descripcion}}</h2>
+            <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+          </ion-card-header>
+        </ion-card>
+    
+    </ion-row>
+  </ion-grid>
 </ion-content>
+
+
+

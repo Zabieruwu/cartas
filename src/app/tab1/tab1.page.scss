@@ -1,0 +1,32 @@
+.card-container{
+	min-width: 18rem;
+	perspective: 200rem;
+}
+.card-container:hover .card-front{
+	transform: rotateY(540deg);	
+	transition-timing-function: 1s;
+	
+}
+.card-container:hover .card-back{
+	
+	visibility: visible;
+    position: relative;
+	
+}
+.card-back{
+	visibility: hidden;
+	margin-top: 20%;
+	margin-left: 20%;
+}
+.card{
+	transition: all 0.9s;
+}
+.card-back .card-body{
+	position: absolute;
+}
+.content{
+	min-height: 15rem;
+	min-width: 15rem;
+	
+}
+

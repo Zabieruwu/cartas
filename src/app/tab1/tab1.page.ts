@@ -8,5 +8,11 @@ import { Component } from '@angular/core';
 export class Tab1Page {
 
   constructor() {}
+  
+  herramientas = [
+    {nombre:"motor", descripcion:"asies",imagen:""},
+    {nombre:"turbina", descripcion:"la turbina",imagen:""},
+    {nombre:"aceite de motor", descripcion:"aceite de motor",imagen:""},
+  ];
 
 }
