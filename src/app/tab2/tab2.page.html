@@ -1,17 +1,42 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 2
+    <ion-title style="text-align: center;">
+      Question Game
     </ion-title>
+    <ion-button [routerLink]="['/tabs']"></ion-button>
   </ion-toolbar>
 </ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+<ion-content  class="static-content"  style="padding-bottom: 50px;">
+  <ion-grid class="ion-text-center" style = "padding-bottom: 10%;">
+    <ion-row>
+      <ion-col size="12">
+        <img src="../../assets/img/pregunga.png" [class.shake-animation]="isClicked" (click)="toggleAnimation()" alt="Imagen" id="shakeImage" />
+      </ion-col>
+    </ion-row>
+    <p style = "text-align: center; color: black;font-family: 'Courier New', Courier, monospace; margin: 0;">V1.0</p>
+    <ion-row>
+      <ion-col size="12">
+        <ion-button (click) = "start()">Inicio</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12">
+        <ion-button (click) = "continue()">Continuar</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12">
+        <ion-button (click) = "insta()">Contribuir</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
+<footer #footer (click) = "insta()" class = "fixed-footer"  style="margin-top: 0;">
+  <div class="footer-container">
+    <a href="https://www.instagram.com/Ragnaarson" target="_blank" rel="noopener noreferrer">
+      <img src="../../assets/img/yoo.png" alt="Instagram" class="instagram-icon">
+      <img src="../../assets/img/Eel.png" alt="Instagram" class="instagram-icon">
+      <img src="../../assets/img/Superyoo.png" alt="Instagram" class="instagram-icon">
+    </a>
+  </div>
+</footer>

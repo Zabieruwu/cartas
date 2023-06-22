@@ -1,0 +1,406 @@
+{
+    "data": [
+        {
+          "question": "¿Cuál es la capital de Italia?",
+          "answer": "Roma",
+          "help": "Pista: Es famosa por el Coliseo y la Fontana di Trevi.",
+          "score": 600,
+          "options": ["Roma", "Milán", "Florencia", "Venecia"]
+        },
+        {
+          "question": "¿Quién escribió la famosa novela 'Don Quijote de la Mancha'?",
+          "answer": "Miguel de Cervantes",
+          "help": "Pista: Es considerada una de las obras más importantes de la literatura en español.",
+          "score": 700,
+          "options": ["Miguel de Cervantes", "William Shakespeare", "Federico García Lorca", "Gabriel García Márquez"]
+        },
+        {
+          "question": "¿Cuál es el planeta más grande del sistema solar?",
+          "answer": "Júpiter",
+          "help": "Pista: Es conocido por su gran tamaño y sus bandas atmosféricas.",
+          "score": 800,
+          "options": ["Júpiter", "Saturno", "Neptuno", "Urano"]
+        },
+        {
+          "question": "¿Cuántas patas tiene un gato?",
+          "answer": "4",
+          "help": "Pista: Al igual que la mayoría de los mamíferos terrestres, los gatos tienen esta cantidad de patas.",
+          "score": 500,
+          "options": ["2", "3", "4", "5"]
+        },
+        {
+          "question": "¿Cuál es el símbolo químico del oro?",
+          "answer": "Au",
+          "help": "Pista: Proviene del término latino 'aurum'.",
+          "score": 600,
+          "options": ["Au", "Ag", "Cu", "Pt"]
+        },
+        {
+          "question": "¿En qué año tuvo lugar la primera llegada del hombre a la luna?",
+          "answer": "1969",
+          "help": "Pista: Fue durante la misión Apollo 11.",
+          "score": 700,
+          "options": ["1969", "1972", "1961", "1975"]
+        },
+        {
+          "question": "¿Cuál es el océano más grande del mundo?",
+          "answer": "El océano Pacífico",
+          "help": "Pista: Es el océano más extenso y cubre aproximadamente un tercio de la superficie terrestre.",
+          "score": 800,
+          "options": ["El océano Pacífico", "El océano Atlántico", "El océano Índico", "El océano Ártico"]
+        },
+        {
+          "question": "¿Cuál es el nombre de la famosa pintura de Leonardo da Vinci que se encuentra en el Louvre?",
+          "answer": "La Mona Lisa",
+          "help": "Pista: También conocida como 'La Gioconda'.",
+          "score": 600,
+          "options": ["La Mona Lisa", "La noche estrellada", "El grito", "El nacimiento de Venus"]
+        },
+        {
+          "question": "¿Cuál es el animal más grande del mundo?",
+          "answer": "La ballena azul",
+          "help": "Pista: Es un mamífero marino y puede alcanzar tamaños impresionantes.",
+          "score": 700,
+          "options": ["La ballena azul", "El elefante africano", "El tiburón blanco", "El oso polar"]
+        },
+        {
+          "question": "¿Cuál es la respuesta a la pregunta más importante?",
+          "answer": "El amor",
+          "help": "Pista: Es un sentimiento universal que mueve al mundo.",
+          "score": 800,
+          "options": ["El amor", "El dinero", "El tiempo", "La felicidad"]
+        },
+        {
+          "question": "¿Cuál es la capital de España?",
+          "answer": "Madrid",
+          "help": "Pista: Esta ciudad alberga el famoso estadio de fútbol Santiago Bernabéu.",
+          "score": 600,
+          "options": ["Madrid", "Barcelona", "Sevilla", "Valencia"]
+        },
+        {
+          "question": "¿Quién escribió la famosa obra 'Romeo y Julieta'?",
+          "answer": "William Shakespeare",
+          "help": "Pista: Es considerado uno de los escritores más influyentes de la literatura universal.",
+          "score": 700,
+          "options": ["William Shakespeare", "Miguel de Cervantes", "Friedrich Nietzsche", "Charles Dickens"]
+        },
+        {
+          "question": "¿Cuál es el río más largo del mundo?",
+          "answer": "El río Amazonas",
+          "help": "Pista: Fluye a través de Sudamérica y desemboca en el océano Atlántico.",
+          "score": 800,
+          "options": ["El río Amazonas", "El río Nilo", "El río Yangtsé", "El río Misisipi"]
+        },
+        {
+          "question": "¿Cuál es el elemento químico con el símbolo 'Fe'?",
+          "answer": "El hierro",
+          "help": "Pista: Es un metal de color gris plateado y se encuentra en muchos minerales.",
+          "score": 500,
+          "options": ["El hierro", "El oro", "El cobre", "El aluminio"]
+        },
+        {
+          "question": "¿En qué año comenzó la Segunda Guerra Mundial?",
+          "answer": "1939",
+          "help": "Pista: Fue el conflicto armado más grande de la historia y duró hasta 1945.",
+          "score": 600,
+          "options": ["1939", "1914", "1945", "1941"]
+        },
+        {
+          "question": "¿Cuál es el animal más rápido del mundo?",
+          "answer": "El guepardo",
+          "help": "Pista: Es conocido por su velocidad y puede alcanzar hasta 100 km/h en carreras cortas.",
+          "score": 700,
+          "options": ["El guepardo", "El halcón peregrino", "La liebre", "El avestruz"]
+        },
+        {
+          "question": "¿Cuál es el país con la mayor población del mundo?",
+          "answer": "China",
+          "help": "Pista: Es un país ubicado en Asia y cuenta con más de 1.400 millones de habitantes.",
+          "score": 800,
+          "options": ["China", "India", "Estados Unidos", "Brasil"]
+        },
+        {
+          "question": "¿Cuál es el nombre del famoso cuadro de Edvard Munch que representa una figura con una expresión de angustia?",
+          "answer": "El grito",
+          "help": "Pista: Es una de las obras más reconocidas del arte moderno.",
+          "score": 600,
+          "options": ["El grito", "La noche estrellada", "La última cena", "La persistencia de la memoria"]
+        },
+        {
+          "question": "¿Cuál es el ave más grande del mundo?",
+          "answer": "El avestruz",
+          "help": "Pista: Es un ave no voladora y puede llegar a medir hasta 2.7 metros de altura.",
+          "score": 700,
+          "options": ["El avestruz", "El cóndor de los Andes", "El pingüino emperador", "El águila calva"]
+        },
+        {
+          "question": "¿Cuál es el resultado de sumar 2 más 2?",
+          "answer": "4",
+          "help": "Pista: Es el número que obtienes al agregar dos unidades a otras dos unidades.",
+          "score": 800,
+          "options": ["4", "2", "3", "5"]
+        },
+        {
+          "question": "¿Cuál es el país más grande del mundo en términos de superficie?",
+          "answer": "Rusia",
+          "help": "Pista: Se extiende por Europa del Este y Asia del Norte, abarcando una gran parte del territorio.",
+          "score": 600,
+          "options": ["Rusia", "Canadá", "Estados Unidos", "China"]
+        },
+        {
+          "question": "¿Quién pintó el famoso cuadro 'La noche estrellada'?",
+          "answer": "Vincent van Gogh",
+          "help": "Pista: Es uno de los artistas más influyentes del siglo XIX y su estilo es reconocido en todo el mundo.",
+          "score": 700,
+          "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Salvador Dalí"]
+        },
+        {
+          "question": "¿Cuál es el país conocido como 'la tierra de los faraones'?",
+          "answer": "Egipto",
+          "help": "Pista: Es famoso por sus antiguas pirámides y el río Nilo que lo atraviesa.",
+          "score": 800,
+          "options": ["Egipto", "México", "Grecia", "India"]
+        },
+        {
+          "question": "¿Cuál es el elemento químico con el símbolo 'Hg'?",
+          "answer": "Mercurio",
+          "help": "Pista: Es un metal líquido plateado y se encuentra en termómetros y lámparas fluorescentes.",
+          "score": 500,
+          "options": ["Mercurio", "Hidrógeno", "Oxígeno", "Plomo"]
+        },
+        {
+          "question": "¿En qué año se fundó la compañía Apple?",
+          "answer": "1976",
+          "help": "Pista: Fue fundada por Steve Jobs, Steve Wozniak y Ronald Wayne en un garaje.",
+          "score": 600,
+          "options": ["1976", "1984", "1991", "2000"]
+        },
+        {
+          "question": "¿Cuál es el animal terrestre más grande del mundo?",
+          "answer": "El elefante africano",
+          "help": "Pista: Es un mamífero herbívoro y puede llegar a pesar varias toneladas.",
+          "score": 700,
+          "options": ["El elefante africano", "El rinoceronte blanco", "El hipopótamo", "El oso polar"]
+        },
+        {
+          "question": "¿Cuál es la capital de Francia?",
+          "answer": "París",
+          "help": "Pista: Es famosa por su torre Eiffel y el Louvre.",
+          "score": 800,
+          "options": ["París", "Roma", "Londres", "Berlín"]
+        },
+        {
+          "question": "¿Cuál es la capital de Argentina?",
+          "answer": "Buenos Aires",
+          "help": "Pista: Es conocida por el tango y la famosa avenida 9 de Julio.",
+          "score": 600,
+          "options": ["Buenos Aires", "Córdoba", "Mendoza", "Rosario"]
+        },
+        {
+          "question": "¿Cuál es el compositor de la famosa sinfonía 'La Novena'?",
+          "answer": "Ludwig van Beethoven",
+          "help": "Pista: Es considerada una de las obras maestras de la música clásica.",
+          "score": 700,
+          "options": ["Ludwig van Beethoven", "Johann Sebastian Bach", "Wolfgang Amadeus Mozart", "Franz Schubert"]
+        },
+        {
+          "question": "¿Cuál es el océano más profundo del mundo?",
+          "answer": "El océano Pacífico",
+          "help": "Pista: La Fosa de las Marianas, el punto más profundo de la Tierra, se encuentra en este océano.",
+          "score": 800,
+          "options": ["El océano Pacífico", "El océano Atlántico", "El océano Índico", "El océano Ártico"]
+        },
+        {
+          "question": "¿Cuántas patas tiene una araña?",
+          "answer": "8",
+          "help": "Pista: Las arañas pertenecen al grupo de los arácnidos y tienen esta cantidad de patas.",
+          "score": 500,
+          "options": ["6", "8", "10", "12"]
+        },
+        {
+          "question": "¿Quién escribió la famosa obra 'Hamlet'?",
+          "answer": "William Shakespeare",
+          "help": "Pista: Es una de las tragedias más conocidas del autor y se destaca por el soliloquio 'Ser o no ser'.",
+          "score": 600,
+          "options": ["William Shakespeare", "Miguel de Cervantes", "Jane Austen", "Fyodor Dostoyevsky"]
+        },
+        {
+          "question": "¿Cuál es el país más visitado del mundo?",
+          "answer": "Francia",
+          "help": "Pista: Atrae a millones de turistas cada año con destinos como la Torre Eiffel y el Museo del Louvre.",
+          "score": 700,
+          "options": ["Francia", "Estados Unidos", "España", "Italia"]
+        },
+        {
+          "question": "¿Cuál es el animal más venenoso del mundo?",
+          "answer": "La medusa de caja australiana",
+          "help": "Pista: Su veneno es extremadamente peligroso y puede ser mortal para los seres humanos.",
+          "score": 800,
+          "options": ["La medusa de caja australiana", "La serpiente de cascabel", "La araña de embudo", "El escorpión emperador"]
+        },
+        {
+          "question": "¿Cuál es el metal más preciado del mundo?",
+          "answer": "El platino",
+          "help": "Pista: Es valorado por su rareza y sus propiedades únicas, y se utiliza en joyería y en diversas industrias.",
+          "score": 800,
+          "options": ["El platino", "El oro", "El diamante", "El titanio"]
+        },
+        {
+          "question": "¿Cuál es el río más largo del mundo?",
+          "answer": "El río Amazonas",
+          "help": "Pista: Fluye a través de Sudamérica y desemboca en el océano Atlántico.",
+          "score": 800,
+          "options": ["El río Amazonas", "El río Nilo", "El río Yangtsé", "El río Misisipi"]
+        },
+        {
+          "question": "¿Cuál es la montaña más alta del mundo?",
+          "answer": "El monte Everest",
+          "help": "Pista: Se encuentra en la cordillera del Himalaya y alcanza una altura de 8,848 metros.",
+          "score": 900,
+          "options": ["El monte Everest", "El monte Kilimanjaro", "El monte Aconcagua", "El monte McKinley"]
+        },
+        {
+          "question": "¿Cuál es la lengua más hablada del mundo?",
+          "answer": "El chino mandarín",
+          "help": "Pista: Es el idioma oficial de China y se habla por un gran número de personas en todo el mundo.",
+          "score": 800,
+          "options": ["El chino mandarín", "El español", "El inglés", "El hindi"]
+        },
+        {
+          "question": "¿Quién pintó la famosa obra 'La última cena'?",
+          "answer": "Leonardo da Vinci",
+          "help": "Pista: Es uno de los artistas más reconocidos del Renacimiento y esta obra se encuentra en Milán, Italia.",
+          "score": 700,
+          "options": ["Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh", "Michelangelo"]
+        },
+        {
+          "question": "¿Cuál es el planeta más grande del sistema solar?",
+          "answer": "Júpiter",
+          "help": "Pista: Es conocido por su gran tamaño y sus características atmosféricas, incluyendo la Gran Mancha Roja.",
+          "score": 800,
+          "options": ["Júpiter", "Saturno", "Urano", "Neptuno"]
+        },
+        {
+          "question": "¿Cuál es la moneda oficial de Japón?",
+          "answer": "El yen",
+          "help": "Pista: Es una de las principales monedas del mundo y tiene símbolo ¥.",
+          "score": 700,
+          "options": ["El yen", "El dólar", "El euro", "La libra esterlina"]
+        },
+        {
+          "question": "¿Cuál es el nombre del personaje principal de la serie de libros 'Harry Potter'?",
+          "answer": "Harry Potter",
+          "help": "Pista: Es un joven mago que asiste a la Escuela de Magia y Hechicería de Hogwarts.",
+          "score": 800,
+          "options": ["Harry Potter", "Ron Weasley", "Hermione Granger", "Severus Snape"]
+        },
+        {
+          "question": "¿Quién interpretó a Iron Man en las películas del Universo Cinematográfico de Marvel?",
+          "answer": "Robert Downey Jr.",
+          "help": "Pista: Es un actor estadounidense conocido por su carismático papel como Tony Stark / Iron Man.",
+          "score": 900,
+          "options": ["Robert Downey Jr.", "Chris Evans", "Chris Hemsworth", "Tom Holland"]
+        },
+        {
+          "question": "¿Cuál es el nombre del villano principal en la película 'El Rey León' de Disney?",
+          "answer": "Scar",
+          "help": "Pista: Es el tío del protagonista y tiene una cicatriz distintiva en su rostro.",
+          "score": 800,
+          "options": ["Scar", "Jafar", "Ursula", "Gastón"]
+        },
+        {
+          "question": "¿Cuál es el nombre del famoso superhéroe arácnido de Marvel?",
+          "answer": "Spider-Man",
+          "help": "Pista: Es un personaje creado por Stan Lee y Steve Ditko, conocido por su traje rojo y azul y sus habilidades trepadoras.",
+          "score": 800,
+          "options": ["Spider-Man", "Iron Man", "Captain America", "Hulk"]
+        },
+        {
+          "question": "¿Cuál es el nombre del grupo musical surcoreano conocido por su canción 'Dynamite'?",
+          "answer": "BTS",
+          "help": "Pista: Es un grupo de K-pop formado por siete miembros y ha ganado gran popularidad a nivel mundial.",
+          "score": 800,
+          "options": ["BTS", "BLACKPINK", "EXO", "TWICE"]
+        },
+        {
+          "question": "¿Quién interpreta el papel de Jon Snow en la serie de televisión 'Juego de Tronos'?",
+          "answer": "Kit Harington",
+          "help": "Pista: Es un actor británico conocido por su papel como el noble y valiente Jon Snow en la exitosa serie.",
+          "score": 800,
+          "options": ["Kit Harington", "Peter Dinklage", "Emilia Clarke", "Sophie Turner"]
+        },
+        {
+          "question": "¿Cuál es el autor del libro '1984'?",
+          "answer": "George Orwell",
+          "help": "Pista: Es un escritor británico conocido por su visión distópica de la sociedad.",
+          "score": 1000,
+          "options": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "Margaret Atwood", "Jorge Luis Borges"]
+        },
+        {
+          "question": "¿Cuál es el metal más abundante en la corteza terrestre?",
+          "answer": "Aluminio",
+          "help": "Pista: Es un metal ligero y se encuentra en forma de bauxita en la naturaleza.",
+          "score": 1000,
+          "options": ["Aluminio", "Hierro", "Cobre", "Plomo", "Titanio"]
+        },
+        {
+          "question": "¿En qué año se fundó la compañía Google?",
+          "answer": "1998",
+          "help": "Pista: Fue fundada por Larry Page y Sergey Brin en un garaje.",
+          "score": 1000,
+          "options": ["1998", "1995", "2000", "2004", "1990"]
+        },
+        {
+          "question": "¿Quién escribió la famosa novela 'Moby Dick'?",
+          "answer": "Herman Melville",
+          "help": "Pista: Es considerada una de las obras maestras de la literatura estadounidense.",
+          "score": 1000,
+          "options": ["Herman Melville", "Mark Twain", "Nathaniel Hawthorne", "Herman Hesse", "F. Scott Fitzgerald"]
+        },
+        {
+          "question": "¿Cuál es el océano más profundo del mundo?",
+          "answer": "El océano Pacífico",
+          "help": "Pista: El punto más profundo conocido en la Tierra, la Fosa de las Marianas, se encuentra en este océano.",
+          "score": 1000,
+          "options": ["El océano Pacífico", "El océano Atlántico", "El océano Índico", "El océano Ártico", "El océano Antártico"]
+        }
+      ],
+    "frases": [
+        {
+            "answer": "¡Vaya, esa no era la respuesta correcta! ¿Seguro que no necesitas un poco más de café?"
+        },
+        {
+            "answer": "Ups, esa no era la respuesta. No te preocupes, todos hemos tenido un día así."
+        },
+        {
+            "answer": "¡Incorrecto! Tal vez deberías considerar una carrera como adivino cómico."
+        },
+        {
+            "answer": "Oh no, esa respuesta no es la correcta. Parece que el gato se comió tus conocimientos."
+        },
+        {
+            "answer": "¡Ja, ja! Esa no era la respuesta correcta. Tal vez deberías consultar con el oráculo la próxima vez."
+        },
+        {
+            "answer": "¿En serio esa fue tu respuesta? Creo que necesitas un descanso y una buena dosis de risas."
+        },
+        {
+            "answer": "Esa no era la respuesta correcta, pero al menos te ganaste una sonrisa por tu intento."
+        },
+        {
+            "answer": "Pregunta incorrecta, pero seguro que tienes otras habilidades impresionantes. ¿Malabarismo, tal vez?"
+        },
+        {
+            "answer": "¡No es la respuesta correcta! Parece que alguien se quedó sin batería en el cerebro."
+        },
+        {
+            "answer": "Error, error. ¡Mejor suerte la próxima vez! ¿Quizás necesitas un poco de helado para animarte?"
+        },
+        {
+            "answer": "¡Equivocado! No te preocupes, incluso los superhéroes tienen sus días malos."
+        },
+        {
+            "answer": "Oh, esa no era la respuesta correcta. Quizás deberías tomar un desvío por la tierra de los chistes."
+        }
+    ]
+}

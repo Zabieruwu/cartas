@@ -1,3 +1,10 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title style="text-align: center;">
+      Flash Card
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
 <ion-content overflow-scroll="true">
 <ion-grid [fixed]="true">
   <ion-row class="card-container">
@@ -6,7 +13,7 @@
         <div class="card-front">
           <ion-card-header class="card">
             <ion-card-title>¿Que Herramienta es?</ion-card-title>
-            
+
             <img alt="{{ herramienta.nombre }}" [src]="herramienta.imagen" />
           </ion-card-header>
         </div>

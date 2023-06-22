@@ -1,0 +1,55 @@
+.card-container {
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.input-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.heart-icon {
+  font-size: 48px;
+  color: red;
+  transition: transform 0.2s ease-in-out;
+}
+
+.heart-icon:hover {
+  transform: scale(1.2);
+}
+
+.footer-toolbar {
+  border-top: 1px solid #ccc;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+ion-button {
+  --background: #ff4081;
+  --color: #ffffff;
+  --padding-start: 30px;
+  --padding-end: 30px;
+  --border-radius: 15px;
+  --margin-bottom: 20px;
+  --font-size: 20px;
+  --border-width: 0;
+  --transition-duration: 0.3s;
+  --transition-easing: ease;
+  --box-shadow: none;
+  --background-hover: #d5004f;
+  --background-activated: #d5004f;
+  --background-focused: #ff4081;
+  --color-hover: #ffffff;
+  --color-activated: #ffffff;
+  --color-focused: #ffffff;
+  --opacity-disabled: 0.6;
+  --background-disabled: #ff4081;
+  --color-disabled: #ffffff;
+  --border-radius-disabled: 15px;
+}
+
+ion-button:active {
+  transform: scale(0.95);
+}
+
+

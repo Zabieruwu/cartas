@@ -1,0 +1,5 @@
+;/*FB_PKG_DELIM*/
+
+__d("LSDeleteThenInsertIGContactInfo",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1];b.n;var c=[];return b.seq([function(c){return b.db.table(176).put({contactId:a[0],igId:a[1],igFollowStatus:a[4],verificationStatus:a[5],linkedFbid:a[2],e2eeEligibility:a[6],supportsE2eeSpamdStorage:a[7]})},function(a){return b.resolve(c)}])}b=a;f["default"]=b}),66);
+__d("LSUpsertGradientColor",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1];b.n;var c=[];return b.seq([function(c){return b.db.table(117).put({themeFbid:a[0],gradientIndex:a[1],color:a[2],type_:b.i64.cast([0,0])})},function(a){return b.resolve(c)}])}b=a;f["default"]=b}),66);
+__d("LSUpsertTheme",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1];b.n;var c=[],d=[],e;return b.seq([function(d){return b.i64.neq(e,e)?c[0]=e:c[0]=a[0],b.db.table(116).put({fbid:a[0],themeIdx:a[1],fallbackColor:a[2],reverseGradiantsForRadial:a[3],accessibilityLabel:a[4],isDeprecated:a[10]})},function(a){return b.resolve(d)}])}b=a;f["default"]=b}),66);
