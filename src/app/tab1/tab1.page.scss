@@ -1,32 +1,56 @@
-.card-container{
+.card-container {
 	min-width: 18rem;
 	perspective: 200rem;
-}
-.card-container:hover .card-front{
-	transform: rotateY(540deg);	
+	cursor: pointer;
+  }
+  
+  .card-container.flipped .card-front {
+	transform: rotateY(180deg);
 	transition-timing-function: 1s;
-	
-}
-.card-container:hover .card-back{
-	
+  }
+  
+  .card-container.flipped .card-back {
+	transform: rotateY(0deg);
 	visibility: visible;
-    position: relative;
-	
-}
-.card-back{
-	visibility: hidden;
-	margin-top: 20%;
-	margin-left: 20%;
-}
-.card{
-	transition: all 0.9s;
-}
-.card-back .card-body{
+  }
+  
+  .card-front,
+  .card-back {
+	backface-visibility: hidden;
 	position: absolute;
-}
-.content{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: all 0.9s;
+  }
+  
+  .card-back {
+	transform: rotateY(-180deg);
+	visibility: hidden;
+  }
+  
+  .card {
+	width: 100%;
+	height: 100%;
+	position: relative;
+  }
+  
+  .content {
 	min-height: 15rem;
 	min-width: 15rem;
-	
-}
-
+	}
+	.card-title {
+		font-size: 1.2rem;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	  }
+	  
+	  .card-description {
+		font-size: 1rem;
+		line-height: 1.4;
+		white-space: normal;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	  }
