@@ -9,9 +9,9 @@ const routes: Routes = [
     path: '',
     component: GamePage,
     children: [
-      { path: '', component: Tab2Page },
+      { path: 'tab2', component: Tab2Page },
       // Otras rutas específicas de la pestaña 'game'
-      { path: 'tabs', redirectTo: 'tab2', pathMatch: 'full' },
+      { path: '', redirectTo: 'tab2', pathMatch: 'full' },
       { path: '**', redirectTo: 'tab2' }
     ]
   }

@@ -5,18 +5,17 @@
     </ion-title>
   </ion-toolbar>
 </ion-header>
-<ion-content overflow-scroll="true">
+  <ion-content overflow-scroll="true">
   <ion-searchbar show-clear-button="focus" value="Show on Focus"></ion-searchbar>
 <ion-grid [fixed]="true">
   <ion-row class="card-container">
-    <ion-col size = "2"></ion-col>
-    <ion-col sixe = "8">
+    <ion-col size = "1"></ion-col>
+    <ion-col size = "10">
       <ion-card color="dark content" *ngFor="let herramienta of herramientas; let i = index">
         <div class="card-container" [class.flipped]="flipState[i]" (click)="flipCard(i)">
           <div class="card-front">
             <ion-card-header class="card">
               <ion-card-title>¿Que Herramienta es?</ion-card-title>
-  
               <img alt="{{ herramienta.nombre }}" [src]="herramienta.imagen" style = "size : 100%"/>
             </ion-card-header>
           </div>
@@ -29,9 +28,10 @@
         </div>
       </ion-card>
     </ion-col>
-    <ion-col size = "2"></ion-col>
+    <ion-col size = "1"></ion-col>
   </ion-row>
 </ion-grid>
+
 </ion-content>
 
 

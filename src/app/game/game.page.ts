@@ -125,7 +125,7 @@ export class GamePage implements OnInit {
         if (preguntasDisponibles.length === 0) {
           // No quedan preguntas disponibles
           this.presentAlertWin();
-          this.router.navigate(['/home']);
+          this.router.navigate(['/tab2']);
           return;
         }
 
@@ -201,7 +201,7 @@ export class GamePage implements OnInit {
     //     // Realizar alguna acción cuando se queden sin vidas
     //     console.log('Se quedó sin vidas');
 
-    //     this.router.navigate(['/home'])
+    //     this.router.navigate(['/tab2'])
     //     localStorage.setItem('questionNumber',"0");
 
     //   }
@@ -222,7 +222,7 @@ export class GamePage implements OnInit {
       if (this.lives === 0) {
             // Realizar alguna acción cuando se queden sin vidas
         console.log('Se quedó sin vidas');
-        this.router.navigate(['/home'])
+        this.router.navigate(['/tab2'])
         localStorage.setItem('questionNumber',"0");
         }
       this.presentAlertIncorrectAsnwer();
