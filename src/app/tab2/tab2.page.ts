@@ -86,6 +86,9 @@ export class Tab2Page implements AfterViewInit {
   instaD(){
     window.open("https://www.instagram.com/danieljsq/",'_system','location=yes')
   }
+  GitHub(){
+    window.open("https://github.com/Zabieruwu/cartas",'_system','location=yes')
+  }
 
 
 }
