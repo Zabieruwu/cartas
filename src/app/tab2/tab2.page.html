@@ -25,17 +25,17 @@
     </ion-row>
     <ion-row>
       <ion-col size="12">
-        <ion-button (click) = "insta()">Contribuir</ion-button>
+        <ion-button (click) = "instaO()">Contribuir</ion-button>
       </ion-col>
     </ion-row>
   </ion-grid>
 </ion-content>
-<footer #footer (click) = "insta()" class = "fixed-footer"  style="margin-top: 0;">
-  <div class="footer-container">
-    <a href="https://www.instagram.com/Ragnaarson" target="_blank" rel="noopener noreferrer">
-      <img src="../../assets/img/yoo.png" alt="Instagram" class="instagram-icon">
-      <img src="../../assets/img/Eel.png" alt="Instagram" class="instagram-icon">
-      <img src="../../assets/img/Superyoo.png" alt="Instagram" class="instagram-icon">
-    </a>
-  </div>
+<footer #footer  class = "fixed-footer"  style="margin-top: 0;">
+  <ion-grid>
+    <ion-row>
+      <ion-col><img src="../../assets/img/yoo.png" alt="Instagram" class="instagram-icon" (click) = "instaO()"></ion-col>
+      <ion-col><img src="../../assets/img/Eel.png" alt="Instagram" class="instagram-icon"></ion-col>
+      <ion-col><img src="../../assets/img/Superyoo.png" alt="Instagram" class="instagram-icon" (click) = "instaD()"></ion-col>
+    </ion-row>
+  </ion-grid>
 </footer>

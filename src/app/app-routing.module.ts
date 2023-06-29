@@ -15,12 +15,7 @@ const routes: Routes = [
     path: 'tab2',
     loadChildren: () => import('../app/tab2/tab2.module').then( m => m.Tab2PageModule)
   },
-  {
-    path: '',
-    redirectTo: 'tab2',
-    pathMatch: 'full'
-  },
-  { path: 'tab2', redirectTo: 'tab2', pathMatch: 'full' },
+  { path: '', redirectTo: 'tab2', pathMatch: 'full' },
   { path: '**', redirectTo: 'tab2' }
 
 ];

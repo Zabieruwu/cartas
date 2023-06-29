@@ -19,9 +19,15 @@ export class Tab2Page implements AfterViewInit {
   @ViewChild('footer')
   footer!: ElementRef;
 
+
+
   constructor( public router : Router,
               public alertController : AlertController
-      ) {}
+      ) {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    }
+
+
 
   ngAfterViewInit() {
     this.toggleAnimation()
@@ -74,8 +80,12 @@ export class Tab2Page implements AfterViewInit {
     let result = await alert.onDidDismiss();
   }
 
-  insta(){
+  instaO(){
     window.open("https://www.instagram.com/ragnaarson/",'_system','location=yes')
   }
+  instaD(){
+    window.open("https://www.instagram.com/danieljsq/",'_system','location=yes')
+  }
+
 
 }
