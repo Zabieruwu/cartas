@@ -1,21 +1,23 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-grid >
-      <ion-row>
-        <ion-col size=""><ion-title>FireBase <ion-icon name="logo-firebase"></ion-icon></ion-title></ion-col>
-        <ion-col size="3.5"><ion-button color="primary" (click)="setOpen1(true)">Sing in</ion-button></ion-col>
-        <ion-col size="3.5"><ion-button color="primary" (click)="setOpen2(true)">Sing up</ion-button></ion-col>
-      </ion-row>
-    </ion-grid>
+    <ion-title style="text-align: center;">Account</ion-title>
   </ion-toolbar>
 </ion-header>
-<!--Signin-->
+
+<ion-content [fullscreen]="true" class="content-wrapper">
+  <div class="image-wrapper">
+    <img src="../../assets/img/fire.png" alt="Imagen" id="shakeImage" class="fire-animation" style="margin-top: 18%;" />
+  </div>
+  <br style="margin-top: 10%;">
+  <div class="button-wrapper">
+    <ion-button color="warning" style="margin-top: 5%;" (click)="setOpen2(true)">Sign up</ion-button>
+    <!--Signin-->
 <ion-content class="ion-padding">
   <ion-modal [isOpen]="isModalOpen1">
     <ng-template>
       <ion-header>
         <ion-toolbar>
-          <ion-title style="text-align: center;">Sing up <ion-icon name="logo-firebase"></ion-icon></ion-title>
+          <ion-title style="text-align: center;">Sing up</ion-title>
           <ion-buttons slot="end">
             <ion-button size="large" (click)="setOpen1(false)"><ion-icon name="close-sharp"></ion-icon></ion-button>
           </ion-buttons>
@@ -24,47 +26,52 @@
       <ion-content class="ion-padding">
         <div class="wrapper">
           <div *ngIf="!loading" class="body">
-              <img class="logo" src="" alt="Login">
-              <h1>Login</h1>
-              <form (ngSubmit)="login()" [formGroup]="loginUsuario">
-                  <div class="form-floating mb-3">
-                      <input type="email" formControlName="email" class="form-control" placeholder="name@example.com">
-                      <label>Email</label>
-                      <span *ngIf="loginUsuario.get('email')?.hasError('required') && loginUsuario.get('email')?.touched" class="text-danger errorLabel">
-                          El <strong>correo</strong> es requerido
-                      </span>
-                      <span *ngIf="loginUsuario.get('email')?.hasError('email') && loginUsuario.get('email')?.touched" class="text-danger errorLabel">
-                          El <strong>correo</strong> es invalido
-                      </span>
-                  </div>
-                  <div class="form-floating mb-3">
-                      <input type="password" formControlName="password" class="form-control" placeholder="Password">
-                      <label>Password</label>
-                      <span *ngIf="loginUsuario.get('password')?.hasError('required') && loginUsuario.get('password')?.touched" class="text-danger errorLabel">
-                          La <strong>password</strong> es requerida
-                      </span>
-                  </div>
-                  <div class="d-grid gap-2">
-                      <ion-button type="submit" class="btn btn-primary btn-lg" [disabled]="loginUsuario.invalid" >Login</ion-button>
-                  </div>
-                  <p class="mt-3">No tienes cuenta? <a routerLink="/tab3">Registrar</a></p>
-                  <a class="mt-3" routerLink="/recuperar-password">Recuperar Contraseña</a>
-              </form>
+            <img class="logo" src="" alt="Login">
+            <h1>Login</h1>
+            <form (ngSubmit)="login()" [formGroup]="loginUsuario">
+              <div class="form-floating mb-3">
+                <input type="email" formControlName="email" class="form-control" placeholder="name@example.com">
+                <label>Email</label>
+                <span *ngIf="loginUsuario.get('email')?.hasError('required') && loginUsuario.get('email')?.touched"
+                  class="text-danger errorLabel">
+                  El <strong>correo</strong> es requerido
+                </span>
+                <span *ngIf="loginUsuario.get('email')?.hasError('email') && loginUsuario.get('email')?.touched"
+                  class="text-danger errorLabel">
+                  El <strong>correo</strong> es invalido
+                </span>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="password" formControlName="password" class="form-control" placeholder="Password">
+                <label>Password</label>
+                <span
+                  *ngIf="loginUsuario.get('password')?.hasError('required') && loginUsuario.get('password')?.touched"
+                  class="text-danger errorLabel">
+                  La <strong>password</strong> es requerida
+                </span>
+              </div>
+              <div class="d-grid gap-2">
+                <ion-button type="submit" class="btn btn-primary btn-lg" [disabled]="loginUsuario.invalid"
+                  (click)="setOpen2(false)">Login</ion-button>
+              </div>
+              <p class="mt-3">No tienes cuenta? <a [routerLink]="['/tabs']">Registrar</a></p>
+              <a class="mt-3" routerLink="/recuperar-password">Recuperar Contraseña</a>
+            </form>
           </div>
-      </div>
+        </div>
       </ion-content>
     </ng-template>
   </ion-modal>
 </ion-content>
 <!--Signin-->
-<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-<!--Signup-->
+    <ion-button color="warning" (click)="setOpen1(true)" style="margin-top: 5%;">Sign in</ion-button>
+    <!--Signup-->
 <ion-content class="ion-padding">
   <ion-modal [isOpen]="isModalOpen2">
     <ng-template>
       <ion-header>
         <ion-toolbar>
-          <ion-title style="text-align: center;">Sing up <ion-icon name="logo-firebase"></ion-icon></ion-title>
+          <ion-title style="text-align: center;">Sing up</ion-title>
           <ion-buttons slot="end">
             <ion-button size="large" (click)="setOpen2(false)"><ion-icon name="close-sharp"></ion-icon></ion-button>
           </ion-buttons>
@@ -76,37 +83,51 @@
             <div class="form-floating mb-3">
               <label>Email</label>
               <br>
-                <input type="email" class="form-control" formControlName="email" placeholder="name@example.com">
-                <br>
-                <span *ngIf="registrarUsuario.get('email')?.hasError('required') && registrarUsuario.get('email')?.touched" class="text-danger errorLabel">
-                    El <strong>correo</strong> es requerido
-                </span>
-                <span *ngIf="registrarUsuario.get('email')?.hasError('email') && registrarUsuario.get('email')?.touched" class="text-danger errorLabel">
-                    El <strong>correo</strong> es invalido
-                </span>
+              <input type="email" class="form-control" formControlName="email" placeholder="name@example.com">
+              <br>
+              <span
+                *ngIf="registrarUsuario.get('email')?.hasError('required') && registrarUsuario.get('email')?.touched"
+                class="text-danger errorLabel">
+                El <strong>correo</strong> es requerido
+              </span>
+              <span *ngIf="registrarUsuario.get('email')?.hasError('email') && registrarUsuario.get('email')?.touched"
+                class="text-danger errorLabel">
+                El <strong>correo</strong> es invalido
+              </span>
             </div>
             <div class="form-floating mb-3">
-                <input type="password" class="form-control" formControlName="password" placeholder="Password">
-                <label>Password</label>
-                <span *ngIf="registrarUsuario.get('password')?.hasError('required') && registrarUsuario.get('password')?.touched" class="text-danger errorLabel">
-                    La <strong>password</strong> es requerida
-                </span>
-                <span *ngIf="registrarUsuario.get('password')?.hasError('minlength') && registrarUsuario.get('password')?.touched" class="text-danger errorLabel">
-                    El <strong>password</strong> debe tener 6 caracteres
-                </span>
+              <input type="password" class="form-control" formControlName="password" placeholder="Password">
+              <label>Password</label>
+              <span
+                *ngIf="registrarUsuario.get('password')?.hasError('required') && registrarUsuario.get('password')?.touched"
+                class="text-danger errorLabel">
+                La <strong>password</strong> es requerida
+              </span>
+              <span
+                *ngIf="registrarUsuario.get('password')?.hasError('minlength') && registrarUsuario.get('password')?.touched"
+                class="text-danger errorLabel">
+                El <strong>password</strong> debe tener 6 caracteres
+              </span>
             </div>
             <div class="form-floating mb-3">
-                <input type="password" class="form-control" formControlName="repetirPassword" placeholder="Repetir Password">
-                <br>
-                <ion-label>Repetir Passowrd</ion-label>
+              <input type="password" class="form-control" formControlName="repetirPassword"
+                placeholder="Repetir Password">
+              <br>
+              <ion-label>Repetir Passowrd</ion-label>
             </div>
             <div class="d-grid gap-2 mb-3">
-                <ion-button class="btn btn-primary btn-lg" (click)="setOpen2(false)" [disabled]="registrarUsuario.invalid" type="submit">Login</ion-button>
+              <ion-button class="btn btn-primary btn-lg" (click)="setOpen2(false)" [disabled]="registrarUsuario.invalid"
+                type="submit">Login</ion-button>
             </div>
-        </form>
+          </form>
         </div>
       </ion-content>
     </ng-template>
   </ion-modal>
 </ion-content>
 <!--Signup-->
+  </div>
+  <footer class="footer" style="text-align: center; margin-top: 25%;">
+    <ion-title>Powered by Firebase <ion-icon name="logo-firebase"></ion-icon></ion-title>
+  </footer>
+</ion-content>
