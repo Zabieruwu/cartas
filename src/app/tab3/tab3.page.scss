@@ -41,3 +41,47 @@
   align-items: center;
   margin-top: 16px;
 }
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.body {
+  max-width: 300px; /* Ajusta el ancho máximo del contenido */
+  text-align: center;
+}
+
+.form {
+  margin-top: 20px; /* Ajusta la separación superior */
+}
+
+.errorLabel {
+  display: block;
+  margin-top: 8px; /* Ajusta la separación superior */
+  font-size: 12px;
+  color: red;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.modal-body {
+  max-width: 300px; /* Ajusta el ancho máximo del contenido */
+  text-align: center;
+}
+
+.form {
+  margin-top: 20px; /* Ajusta la separación superior */
+}
+
+.errorLabel {
+  display: block;
+  margin-top: 8px
+}
