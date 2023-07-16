@@ -34,12 +34,6 @@ export class Tab3Page implements OnInit {
     })
   }
 
-  isClicked: boolean = false;
-  //animacion foto
-  toggleAnimation() {
-    this.isClicked = !this.isClicked;
-  }
-
   isModalOpen1 = false;
   isModalOpen2 = false;
 
@@ -98,9 +92,9 @@ export class Tab3Page implements OnInit {
     this.loading = true;
     this.afAuth.signInWithEmailAndPassword(email, password).then((user) => {
       if(user.user?.emailVerified) {
-        this.router.navigate(['/tabs-login']);
+        this.router.navigate(['/tabs']);
       } else {
-        this.router.navigate(['/tabs-login']);
+        this.router.navigate(['/verificar-correo']);
       }
     }).catch((error) => {
       this.loading = false;
