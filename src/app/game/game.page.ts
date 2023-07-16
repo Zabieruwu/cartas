@@ -87,7 +87,7 @@ export class GamePage implements OnInit {
 
     AdMob.initialize({
       requestTrackingAuthorization: true,
-      testingDevices: ['3ae35b46-e3ca-4e85-8a25-5d29c6e3f57d'],
+      testingDevices: ['b21b5793-c749-442e-ba12-1bad0fe0cb52'],
       initializeForTesting: true,
     });
     this.showBanner();
@@ -329,7 +329,7 @@ export class GamePage implements OnInit {
 
   async showBanner(){
     const options : BannerAdOptions ={
-      adId : "ca-app-pub-8865078809185990/8201929547",
+      adId : "ca-app-pub-8865078809185990/8201929547", 
       isTesting : true,
       adSize : BannerAdSize.ADAPTIVE_BANNER,
       position : BannerAdPosition.TOP_CENTER,
