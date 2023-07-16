@@ -87,7 +87,7 @@ export class GamePage implements OnInit {
 
     AdMob.initialize({
       requestTrackingAuthorization: true,
-      testingDevices: ['3ae35b46-e3ca-4e85-8a25-5d29c6e3f57d'],
+      testingDevices: ['ff8c0041-084f-4030-90cf-47ef7619743a'],
       initializeForTesting: true,
     });
     this.showBanner();
