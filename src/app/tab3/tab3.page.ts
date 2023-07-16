@@ -1,13 +1,16 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { AngularFireAuth } from '@angular/fire/compat/auth';
+import { ToastrService } from 'ngx-toastr';
+import { Router } from '@angular/router';
+import { FirebaseCodeErrorService } from 'src/app/service/firebase-code-error.service';
 
 @Component({
   selector: 'app-tab3',
   templateUrl: 'tab3.page.html',
   styleUrls: ['tab3.page.scss']
 })
-export class Tab3Page {
 
-<<<<<<< HEAD
 export class Tab3Page implements OnInit {
   registrarUsuario: FormGroup;
   loginUsuario: FormGroup;
@@ -29,6 +32,12 @@ export class Tab3Page implements OnInit {
       email: ['', [Validators.required, Validators.email]],
       password: ['', Validators.required],
     })
+  }
+
+  isClicked: boolean = false;
+  //animacion foto
+  toggleAnimation() {
+    this.isClicked = !this.isClicked;
   }
 
   isModalOpen1 = false;
@@ -89,17 +98,14 @@ export class Tab3Page implements OnInit {
     this.loading = true;
     this.afAuth.signInWithEmailAndPassword(email, password).then((user) => {
       if(user.user?.emailVerified) {
-        this.router.navigate(['/tabs']);
+        this.router.navigate(['/tabs-login']);
       } else {
-        this.router.navigate(['/verificar-correo']);
+        this.router.navigate(['/tabs-login']);
       }
     }).catch((error) => {
       this.loading = false;
       this.toastr.error(this.firebaseError.codeError(error.code), 'Error');
     })
   }
-=======
-  constructor() {}
->>>>>>> parent of f105e8a (Se agregaron el sing in y sing up a la pagina tab3, sing in aun no)
 
 }
