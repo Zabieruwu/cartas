@@ -1,0 +1,38 @@
+.imagen-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Ajusta el espacio entre la imagen y el resto del contenido según lo desees */
+  margin-bottom: 20px; /* Ajusta el espacio entre la imagen y el resto del contenido según lo desees */
+}
+
+.pregunta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.casillas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.letras-desordenadas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton-verificar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animal-image {
+  height: 200px; /* Ajusta el tamaño de la imagen según lo desees */
+  width: 200px;  /* Ajusta el tamaño de la imagen según lo desees */
+  border-radius: 50%;
+  overflow: hidden;
+}
